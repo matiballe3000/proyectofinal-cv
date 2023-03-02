@@ -1,0 +1,179 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,time,mark,audio,video { margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; } 
+body { line-height:1; }
+ol,ul { list-style:none; }
+blockquote,q { quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse;border-spacing:0; }
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+
+html {scroll-behavior: smooth;}
+body {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+
+nav{
+ 
+  text-align: center;
+}
+
+nav ul{
+   list-style: none;
+   display: inline-block;
+   padding:10px;
+}
+
+nav ul li{
+    float: left;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+    color: #940253;
+}
+
+nav ul li a:hover{
+ color: #9402525d;
+ text-decoration: none;
+}
+.datos-personales { background-color: #EEE3E1; margin-bottom: 0px;}
+img { border-radius: 100%;  
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    h1 {text-align: center;
+    font-size: 30px;
+    padding-top: 50px
+    ;
+  }
+.valores-horizontales{ margin-left: 30%;
+    margin-top: 20px;
+padding-bottom: 20px;
+}
+
+.boton-1{list-style: none; font-size: 35px;align-content: center;padding: 0px 40px; color:#940253; }
+.boton-data {border-radius: 10%;}
+p{margin-bottom: 30px; color: #696969;}
+
+.valores-horizontales {font-size: 35px; margin-bottom: 0px; padding-bottom: 150px;}
+
+
+.resumen{
+    
+  margin-top: 50px;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),
+  url("../imagenes/mati-2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+
+}
+.resumen .contenido-seccion{
+max-width: 1000px;
+margin-top: 50px;
+margin: auto;
+padding: 50px 10px;
+
+}
+
+.resumen .contenido-seccion .info{
+text-align: left;
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+color: #fff;
+}
+.resumen .contenido-seccion .info .col{
+width: 45%;
+}
+.resumen .contenido-seccion .info .col .titulo{
+  display: inline-block;
+  color: #ffff;
+  font-weight: bold;
+  border: 2px solid #940253;
+  background-color: #940253;
+  padding: 10px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  
+  }
+
+  .resumen .contenido-seccion .info .col table .datos{
+    width: 40%;
+    
+    }
+    .datos{
+      padding: 0%;
+    }
+
+.resumen .contenido-seccion .info .col table h3{
+font-size: 22px;
+
+}
+.resumen .contenido-seccion .info .col table p{
+font-size: 18px;
+color: #fff;
+}
+
+.resumen .contenido-seccion .info .col table .descripcion{
+border-left: 1px solid #bab9b9;
+padding-left: 10px;
+}
+.titulo-otras {
+  display: inline-block;
+  color: #ffff;
+  font-weight: bold;
+  border: 2px solid #940253;
+  background-color: #940253;
+  padding: 10px;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.p-otras{
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin: 1% 15%;
+}
+.web { text-decoration: none; color: blue; 
+}
+
+
+
+
+
+footer {background-color: black;
+  padding: 20px 0px;}
+.redes-sociales {
+  text-align: center;
+}
+.redes{
+  font-size: 22px;
+  color: #EEE3E1;
+  margin: 30px 20px;
+  padding-top: 30px;
+}
+.email {
+  color: #EEE3E1;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+.boton-top
+{background: #222;color: white;text-decoration: none;
+  display: block; width: 40px;height: 40px;line-height: 40px;text-align: center;
+	position: fixed;bottom: 20px;right: 20px;}
